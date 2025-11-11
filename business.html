@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>비지니스 | Poetree</title>
+    <link rel="stylesheet" href="./baepo.css">
+</head>
+
+<body>
+
+<header class="main-header">
+    <div class="header-content">
+        <a href="index.html" class="logo"></a>
+        
+        <div class="header-utility">
+            <input type="text" placeholder="검색" class="search-bar">
+            <a href="#" class="icon-link">로그인</a>
+            <a href="#" class="icon-link">장바구니 (0)</a>
+        </div>
+    </div>
+</header>
+
+<nav class="main-nav">
+    <ul class="nav-menu">
+        <li><a href="company.html">회사소개</a></li>
+        <li class="dropdown">
+            <a href="beans.html">원두</a>
+            <ul class="submenu">
+                <li><a href="#">필터(핸드드립)</a></li>
+                <li><a href="#">에스프레소</a></li>
+                <li><a href="#">디카페인</a></li>
+                <li><a href="#">드립백</a></li>
+                <li><a href="#">사업자(5KG/10KG)</a></li>
+            </ul>
+        </li>
+        <li><a href="business.html">비지니스</a></li>
+        <li><a href="cs.html">고객센터</a></li>
+        </ul>
+</nav>
+
+    <main class="main-content">
+        <section class="business-contact-section" style="padding: 60px 0; text-align: center;">
+            <h1 style="font-size: 32px; margin-bottom: 40px; color: #4C4336;">비지니스 문의 (CONTACT)</h1>
+
+            <div class="contact-info-block" style="max-width: 600px; margin: 0 auto 50px; line-height: 2;">
+
+                <h3 style="font-size: 20px; margin-top: 30px; color: #1a1a1a;">포에트리 비지니스 파트너십</h3>
+                <p>저희 포에트리는 카페 창업 및 대량 원두 공급 등 다양한 비지니스 협업을 환영합니다.</p>
+                <hr style="margin: 20px 0; border: 0; border-top: 1px solid #ddd;">
+
+                <p><strong>전화 문의:</strong> 010-1234-5678 (평일 9:00 ~ 18:00)</p>
+                <p><strong>이메일 문의:</strong> business@poetree.co.kr</p>
+                <p><strong>사업자등록번호:</strong> 123-45-678910</p>
+                <p><strong>주소:</strong> 광주광역시 북구 북문대로 166 (방문 전 연락 필수)</p>
+            </div>
+
+            <div class="contact-form-area"
+                style="max-width: 600px; margin: 0 auto; padding: 30px; border: 1px solid #eee; background-color: #fcfcfc; text-align: left;">
+                <h3 style="font-size: 22px; margin-bottom: 25px; text-align: center; color: #4C4336;">문의 정보 입력</h3>
+
+                <form action="#" method="POST">
+
+                    <div style="margin-bottom: 15px;">
+                        <label for="name" style="display: block; margin-bottom: 5px; font-weight: bold;">고객 성함 <span
+                                style="color: red;">*</span></label>
+                        <input type="text" id="name" name="contact_name" required
+                            style="width: 100%; padding: 10px; border: 1px solid #ccc; box-sizing: border-box; font-size: 14px;">
+                    </div>
+
+                    <div style="margin-bottom: 15px;">
+                        <label for="phone" style="display: block; margin-bottom: 5px; font-weight: bold;">연락처 (휴대폰)
+                            <span style="color: red;">*</span></label>
+                        <input type="tel" id="phone" name="contact_phone" required
+                            style="width: 100%; padding: 10px; border: 1px solid #ccc; box-sizing: border-box; font-size: 14px;">
+                    </div>
+
+                    <div style="margin-bottom: 15px;">
+                        <label for="email" style="display: block; margin-bottom: 5px; font-weight: bold;">이메일 주소 <span
+                                style="color: red;">*</span></label>
+                        <input type="email" id="email" name="contact_email" required
+                            style="width: 100%; padding: 10px; border: 1px solid #ccc; box-sizing: border-box; font-size: 14px;">
+                    </div>
+
+                    <div style="margin-bottom: 20px;">
+                        <label for="message" style="display: block; margin-bottom: 5px; font-weight: bold;">문의 내용 및 요청
+                            사항 <span style="color: red;">*</span></label>
+                        <textarea id="message" name="contact_message" rows="5" required
+                            style="width: 100%; padding: 10px; border: 1px solid #ccc; box-sizing: border-box; resize: vertical; font-size: 14px;"></textarea>
+                    </div>
+
+                    <button type="submit"
+                        style="width: 100%; padding: 12px; background-color: #4C4336; color: white; border: none; cursor: pointer; font-size: 16px; font-weight: bold; transition: background-color 0.3s;">
+                        문의 접수하기
+                    </button>
+
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="customer-service">
+                <h4>고객센터</h4>
+                <p>010-1234-5678 (평일 9:00 - 18:00)</p>
+            </div>
+            <div class="company-info">
+                <h4>회사 정보</h4>
+                <p>(주)포에트리 | 대표: 홍길동 | 광주광역시 북구 북문대로 166</p>
+                <p>사업자등록번호: 123-45-678910 | 통신판매업신고번호: 제-2025-광주북구-1234호</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
